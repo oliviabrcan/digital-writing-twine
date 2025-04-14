@@ -9,12 +9,38 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play the journey.</tw-noscript></noscript></tw-story>
-<tw-storydata name="the journey" startnode="1" creator="Twine" creator-version="2.8.0" format="Harlowe" format-version="3.3.7" ifid="C43AF92E-393C-4E8C-BDAD-45A61162D0B1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="the beginning" tags="" position="575,250" size="100,100">Is it once upon a time?
+<tw-storydata name="the journey" startnode="1" creator="Twine" creator-version="2.8.0" format="Harlowe" format-version="3.3.7" ifid="C43AF92E-393C-4E8C-BDAD-45A61162D0B1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+  font-family: "Fenix", serif;
+  color: black
+  background-color: #f9f4e4
+}
+
+.story-image-one {
+  width: 100%;
+}
+
+tw-link, tw-link:link, tw-link:visited, tw-link.visited {
+  color: #ceab7a
+  text-decoration: bold;
+}
+tw-link:focus, tw-link:hover, tw-link:active, tw-link.visited:hover {
+  color: #d5442e
+  text-decoration: none;
+}
+tw-passage {
+  padding-bottom: 200px;}
+
+img.story-image-one {
+  width: 70%;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="the beginning" tags="" position="575,250" size="100,100">Is it once upon a time?
 [[Yes.]]</tw-passagedata><tw-passagedata pid="2" name="Yes." tags="" position="575,375" size="100,100">It did happen quite some time ago.
 [[Definitely awhile.]]</tw-passagedata><tw-passagedata pid="3" name="Hmm..." tags="" position="575,625" size="100,100">Maybe it did begin with a map. (click-append: &quot;map&quot;) [ and a prophecy]
  (live: 2s) [(stop:) [[Let&#39;s say it began with them all.]]]
 </tw-passagedata><tw-passagedata pid="4" name="Definitely awhile." tags="" position="575,500" size="100,100">From memory, it began with a map. (click-replace: &quot;map&quot;) [prophecy] (click-replace: &quot;prophecy&quot;) [boy]
-[[Hmm...]]</tw-passagedata><tw-passagedata pid="5" name="Let&#39;s say it began with them all." tags="" position="575,750" size="100,100">&lt;img class=&quot;story-image-one&quot; src=&quot;orb.jpg.jpg&quot; alt=&quot;a glowing blue orb&quot;&gt;</tw-passagedata></tw-storydata>
+[[Hmm...]]</tw-passagedata><tw-passagedata pid="5" name="Let&#39;s say it began with them all." tags="" position="575,750" size="100,100">&lt;img class=&quot;story-image-one&quot; src=&quot;orb.jpg.jpg&quot; alt=&quot;a glowing blue orb&quot;&gt;
+&lt;audio src=&quot;magic-orb-audio.wav.wav&quot; autoplay loop&gt;&lt;/audio&gt;
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
