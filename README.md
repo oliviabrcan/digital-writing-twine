@@ -1,2 +1,2 @@
-# digital-writing-twine
+Experimental Twine Project
  
